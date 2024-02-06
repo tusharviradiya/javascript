@@ -1,3 +1,3 @@
 # javascript
 
-first task of Internship
+first task of Internship - javascript
