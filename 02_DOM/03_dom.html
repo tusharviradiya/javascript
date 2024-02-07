@@ -10,4 +10,31 @@
       <li>javascript</li>
     </ul>
   </body>
+  <script>
+    function addLanguage(langName) {
+      const li = document.createElement("li");
+      li.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(li);
+    }
+    addLanguage("python");
+    addLanguage("c++");
+
+    function addOptiLang(langName) {
+      const li = document.createElement("li");
+      li.appendChild(document.createTextNode(langName));
+      document.querySelector(".language").appendChild(li);
+    }
+    addOptiLang("rajeshbhai");
+
+    //edit
+    const secondLang = document.querySelector("li:nth-child(2)");
+    // secondLang.innerText = "cshrarp"; //not optimized
+    const newLi = document.createElement("li");
+    newLi.textContent = "sagar";
+    secondLang.replaceWith(newLi);
+
+    //remove
+    const lastLang = document.querySelector("li:last-child");
+    lastLang.remove();
+  </script>
 </html>
