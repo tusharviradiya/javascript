@@ -1,5 +1,6 @@
+let c = "10";
 console.log(1 > 2);
-console.log("10" < 2);
+console.log(c < 2);
 
 let a = "2";
 console.log(a == 2);
