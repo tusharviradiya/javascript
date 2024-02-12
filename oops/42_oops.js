@@ -1,6 +1,6 @@
 //constructor in oop
 
-//here new keyword is indicate constructor function
+// here new keyword is indicate constructor function
 // const promises = new Promise();
 // const date = new Date();
 
